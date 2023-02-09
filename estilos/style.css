@@ -14,7 +14,6 @@ html, body{
 body{
     background: url('../imagens/fundo-galaxia.jpg') no-repeat top center;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 main{
@@ -31,4 +30,14 @@ section#telefone{
     height: 627px;
     width: 352px;
     background: url('../imagens/frame-iphone.png') no-repeat;
+}
+
+iframe#tela{
+    position: relative;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    top: 74px;
+    left: 42px;
+    width: 270px;
+    height: 475px;
 }
